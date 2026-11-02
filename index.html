@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A Week in Bloom</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- p5.js version 2.3.4 -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.min.js"></script>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>A Week in Bloom</h1>
+
+    <!-- Project description -->
+    <p class="description">
+      Each flower represents a day of my week, with its petals
+      reflecting the activities I spent my time on throughout the day.
+    </p>
+
+    <!-- Flower visualization -->
+    <section class="sketch-container">
+      <div id="canvas-holder"></div>
+    </section>
+
+    <!-- Data explanation -->
+    <section class="explanation">
+
+      <h2>How to Read My Data</h2>
+
+      <p>
+        Each flower represents one day of my week. The center of each
+        flower represents the main task I completed that day, while
+        the petals represent the time of day I completed the task and my mood. Alternating
+        petal colors make it possible to identify both details.
+        The information underneath each flower shows the day, task,
+        time, and mood.
+      </p>
+
+      <!-- Task color legend -->
+      <h3>Task (Flower Center)</h3>
+
+      <div class="task-list">
+
+        <div class="task">
+          <span class="color class-color"></span>
+          <span>Class</span>
+        </div>
+
+        <div class="task">
+          <span class="color homework-color"></span>
+          <span>Homework</span>
+        </div>
+
+        <div class="task">
+          <span class="color chores-color"></span>
+          <span>Chores</span>
+        </div>
+
+        <div class="task">
+          <span class="color youtube-color"></span>
+          <span>YouTube</span>
+        </div>
+
+      </div>
+
+      <!-- Time color legend -->
+      <h3>Time of Day (Petals)</h3>
+
+      <div class="task-list">
+
+        <div class="task">
+          <span class="color" style="background-color: #F6C85F;"></span>
+          <span>Morning</span>
+        </div>
+
+        <div class="task">
+          <span class="color" style="background-color: #F4A261;"></span>
+          <span>Afternoon</span>
+        </div>
+
+        <div class="task">
+          <span class="color" style="background-color: #7B8FCB;"></span>
+          <span>Evening/Night</span>
+        </div>
+
+      </div>
+
+      <!-- Mood color legend -->
+      <h3>Mood (Petals)</h3>
+
+      <div class="task-list">
+
+        <div class="task">
+          <span class="color" style="background-color: #A0A7B5;"></span>
+          <span>Tired</span>
+        </div>
+
+        <div class="task">
+          <span class="color" style="background-color: #E78A8A;"></span>
+          <span>Stressed</span>
+        </div>
+
+        <div class="task">
+          <span class="color" style="background-color: #83B99A;"></span>
+          <span>Calm</span>
+        </div>
+
+        <div class="task">
+          <span class="color" style="background-color: #E9B85D;"></span>
+          <span>Happy</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Original design sketch -->
+    <section class="design">
+
+      <h2>Original Design Sketch</h2>
+
+      <p>
+        My original idea was to represent each day with a flower
+        and use different visual elements to distinguish between
+        my daily activities and experiences.
+      </p>
+
+      <img
+        src="design-sketch.png"
+        alt="Original drawing of my flower data visualization"
+      >
+
+    </section>
+
+  </main>
+
+  <script src="sketch.js"></script>
+
+</body>
+</html>

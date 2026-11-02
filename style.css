@@ -1,0 +1,126 @@
+
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #FFF8F0;
+  font-family: Arial, sans-serif;
+  color: #4B3B40;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Main title */
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #88777C;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Flower visualization */
+
+.sketch-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+#canvas-holder {
+  width: 900px;
+  max-width: 100%;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Data explanation */
+
+.explanation {
+  margin-top: 35px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.explanation p,
+.design p {
+  color: #88777C;
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 auto 20px;
+}
+
+/* Task color legend */
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.color {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.class-color {
+  background-color: #A0C4FF;
+}
+
+.homework-color {
+  background-color: #FFB7E8;
+}
+
+.chores-color {
+  background-color: #FFD166;
+}
+
+.youtube-color {
+  background-color: #C8A2FF;
+}
+
+/* Original design sketch */
+
+.design {
+  margin-top: 55px;
+  padding: 25px;
+}
+
+.design img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 25px auto;
+  border-radius: 8px;
+}

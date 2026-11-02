@@ -1,0 +1,44 @@
+[
+  {
+    "Day": "Monday",
+    "Task": "Class",
+    "Time": "Morning",
+    "Mood": "Tired"
+  },
+  {
+    "Day": "Tuesday",
+    "Task": "Homework",
+    "Time": "Afternoon",
+    "Mood": "Stressed"
+  },
+  {
+    "Day": "Wednesday",
+    "Task": "Chores",
+    "Time": "Afternoon",
+    "Mood": "Calm"
+  },
+  {
+    "Day": "Thursday",
+    "Task": "Class",
+    "Time": "Morning",
+    "Mood": "Stressed"
+  },
+  {
+    "Day": "Friday",
+    "Task": "Homework",
+    "Time": "Morning",
+    "Mood": "Calm"
+  },
+  {
+    "Day": "Saturday",
+    "Task": "Youtube",
+    "Time": "Morning",
+    "Mood": "Happy"
+  },
+  {
+    "Day": "Sunday",
+    "Task": "Homework",
+    "Time": "Morning",
+    "Mood": "Tired"
+  }
+]
